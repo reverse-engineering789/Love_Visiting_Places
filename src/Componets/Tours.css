@@ -1,0 +1,108 @@
+.MainDiv{
+    align-items: center;
+    text-align: center; 
+    align-items: center;
+}
+
+.OneAgra,
+.TwoJaipur,
+.ThreeGoa,
+.FourVaranasi,
+.FiveDarjeeling,
+.SixJaisalmer,
+.SevenKochi {
+    margin: 0 20px 75px;
+    border: 3px solid #3f080c;
+    padding: 10px;
+    width: 300px;
+    height:max-content;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    overflow: hidden; 
+     text-overflow: ellipsis;
+}
+
+.ImageAgra img,
+.ImageJaipur img,
+.ImageGoa img,
+.ImageVaranasi img,
+.ImageDarjeeling img,
+.ImageJaisalmer img,
+.ImageKochi img {
+    width: 297px;
+    height: 254px;
+    border-radius: 10px;
+}
+
+.AllInfoAgra,
+.AllInfoJaipur,
+.AllInfoGoa,
+.AllInfoVaranasi,
+.AllInfoDarjeeling,
+.AllInfoJaisalmer,
+.AllInfoKochi{
+    padding-left: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+
+.CancelBtn{
+    background-color: pink;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.PriceAgra,
+.PriceJaipur,
+.PriceGoa,
+.PriceVaranasi,
+.PriceDarjeeling,
+.PriceJaisalmer,
+.PriceKochi{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color:  rgb(56, 0, 109);
+    font-size: large;
+}
+
+.NameAgra,
+.NameJaipur,
+.NameGoa,
+.NameVaranasi,
+.NameDarjeeling,
+.NameJaisalmer,
+.NameKochi{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: rgb(133, 6, 84);
+    font-size: 25px;
+    font-style: oblique;
+}
+
+
+.textAgra,
+.textJaipur,
+.textGoa,
+.textVaranasi,
+.textDarjeeling,
+.textJaisalmer,
+.textKochi {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  

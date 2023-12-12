@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+
+.main_heading {
+    /* font-size: 124px;
+    color: #333; /* Change this to your desired text color */
+    /* Add more CSS properties to style your heading as needed */
+    /* text-align: center;
+    margin: 60px;
+    border-style:dashed 5px black;
+    border-style: dotted;
+    border-color: blueviolet;
+    padding-left: 5px; */ 
+
+        font-size: 50px;
+        color: #a82727;
+        text-align: center;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        border: 5px dashed rgb(245, 105, 105); /* Added 20px spacing */
+        padding-top: 8px;
+        padding-bottom: 15px;
+        /* margin-left: 20px;
+        margin-right: -10px; */
+        left: 4px;
+        position: inherit;
+        border-radius: 25px;
+        font-style: oblique;
+         /* Adjusted padding to create space between text and border */
+
+  }
+
+
